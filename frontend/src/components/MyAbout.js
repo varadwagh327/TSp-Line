@@ -99,11 +99,11 @@ export default function AboutPage() {
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Aditya Kakade = Marketing Head</p>
             <div className="flex flex-col">
                         <h2 className="text-2xl">Call Us:</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <p className="text-gray-400 text-xl">Tel: 9975397011</p>
                         
                             <div className='mt-5'>
                                 <h2 className="text-2xl">Send an E-mail:</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <p className="text-gray-400 text-xl">adukakade03@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
@@ -121,12 +121,12 @@ export default function AboutPage() {
           <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Omkar Pande = Media Head</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <h2 className="text-2xl">Call Us:</h2>
+                        <p className="text-gray-400 text-xl">Tel:  8624963808</p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
+                                <p className="text-gray-400 text-xl">omkarpande077@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
@@ -162,12 +162,12 @@ export default function AboutPage() {
              <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Sushant Bhor = Event/Cultural Head</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <h2 className="text-2xl">Call Us:</h2>
+                        <p className="text-gray-400 text-xl">Tel: 9356626609</p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
+                                <p className="text-gray-400 text-xl">sushantbhor03@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
@@ -185,11 +185,11 @@ export default function AboutPage() {
           <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Varad Wagh = Back-End Development</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
+                        <h2 className="text-2xl">Call Us:</h2>
                         <p className="text-gray-400 text-xl">Tel: 8421893853</p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
                                 <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
                             </div>
                             
@@ -226,12 +226,12 @@ export default function AboutPage() {
              <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Rohan Gaikwad = Front-End Development</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <h2 className="text-2xl">Call Us:</h2>
+                        <p className="text-gray-400 text-xl">Tel: 8010385661 </p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
+                                <p className="text-gray-400 text-xl">gairohan0@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
@@ -249,12 +249,12 @@ export default function AboutPage() {
           <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Sanket Dere = Testing & Debugging</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <h2 className="text-2xl">Call Us:</h2>
+                        <p className="text-gray-400 text-xl">Tel: 7588663201</p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
+                                <p className="text-gray-400 text-xl">sanketdere1112@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
@@ -287,28 +287,23 @@ export default function AboutPage() {
              <div className="space-y-8">
             <p className="text-red-500 text-2xl md:text-4xl font-bold">Mayur Kanhore = Client Communication</p>
             <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400 text-xl">Tel: 8421893853</p>
+                        <h2 className="text-2xl">Call Us:</h2>
+                        <p className="text-gray-400 text-xl">Tel: 9075759446</p>
                         
                             <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400 text-xl">varadwagh326@gmail.com</p>
+                                <h2 className="text-2xl">Send an E-mail:</h2>
+                                <p className="text-gray-400 text-xl">kanhoremayur@gmail.com</p>
                             </div>
 
                             <div className='mt-5'>
                             <h2 className="text-2xl">Education:</h2>
                             <p className="text-sm md:text-xl">Bachelor degree in Business, Marketing, Communications. Information Technology can be advantageous, as it provides a foundation for both technical and interpersonal skills.</p>
                             </div>
-                       
-                        </div>
-           </div> 
+                       </div>
+                        </div> 
         </div>
       </div>
-    
-
-    
-    
-    <div>
+     <div>
       <Footer/>
     </div>
    </>

@@ -38,8 +38,7 @@ function App() {
   }, []);
 
 
-  const { isAuthenticated, setIsAuthenticated, setUser } =
-  useContext(Context);
+  const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
 
 useEffect(() => {
   const fetchUser = async () => {
@@ -58,7 +57,7 @@ useEffect(() => {
     }
   };
   fetchUser();
-}, [isAuthenticated]);
+}, [isAuthenticated, setIsAuthenticated, setUser]);
 
   return (
     <>
