@@ -3,7 +3,7 @@ import Cards from "./cards.js";
 import { Link, Navigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { Context } from "../index";
+import { Context } from "../index.js";
 
 function MyProducts() {
   const [product, setProduct] = useState([]);

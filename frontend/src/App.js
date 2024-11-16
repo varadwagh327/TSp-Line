@@ -9,7 +9,7 @@ import {
   Navigate
 } from 'react-router-dom';
 // All pages
-import Home from './pages/Home';
+import Home from './pages/Home.js';
 import Contact from './pages/Contact.js';
 import Login from './pages/Login.js';
 import Register from './pages/Register.js';
@@ -17,7 +17,7 @@ import ServicesAll from './pages/ServicesAll.js';
 import ProductsAll from './pages/ProductsAll.js';
 import AboutAll from "./pages/AboutAll.js"
 
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop.js';
 import { Context } from './index.js';
 import axios from 'axios';
 

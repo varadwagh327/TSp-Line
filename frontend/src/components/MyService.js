@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.js";
+import "../index.js";
 import NavBar from "./Navbar/NavBar.js";
 import Footer from "./Footer.js";
 import img from '../images/web.svg'; 
