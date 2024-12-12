@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
         maxLength: [10, "Phone Number Must Contain Exact 10 Digits!"]
     },
     password: {
-        type: String,
+        type: String,Number,
         minLength: [8, "Password Must Contain At Least 8 Characters!"],
         required: true,
         select: false,

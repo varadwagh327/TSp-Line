@@ -28,7 +28,7 @@ const Login = () => {
         try {
           await axios
             .post(
-              "https://tsp-line.onrender.com/api/v1/user/login",
+              "http://localhost:4000/api/v1/user/login",
               { email, password, confirmPassword, role: "User" },
               {
                 withCredentials: true,
@@ -78,7 +78,7 @@ const Login = () => {
                                     <input
                                         name="password" 
                                         className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                        type="number" 
+                                        type="number,text" 
                                         placeholder="password*"
                                         value={password}
                                         onChange={(e)=> setPassword(e.target.value)}
@@ -89,7 +89,7 @@ const Login = () => {
                                 name="confirmPassword" 
                                 placeholder="confirmPassword*" 
                                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="number" 
+                                type="number,text" 
                                 value={confirmPassword}
                                 onChange={(e)=> setConfirmPassword(e.target.value)}
                             />

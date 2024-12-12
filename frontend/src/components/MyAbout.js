@@ -9,6 +9,7 @@ import varad from "../images/clients/varad.png";
 import rohan from "../images/clients/rohan.png";
 import sanket from "../images/clients/sanket.png";
 import mayur from "../images/clients/mayur.png";
+import { HashLink } from "react-router-hash-link";
 
 
 
@@ -183,7 +184,8 @@ export default function AboutPage() {
       <div className=" background1 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">          
           <div className="space-y-8">
-            <p className="text-blue-900 text-2xl md:text-4xl font-bold">Varad Wagh = Back-End Development</p>
+
+             <p className="text-blue-900 text-2xl md:text-4xl font-bold"> <HashLink smooth to="/massageLogin">Varad Wagh</HashLink> = Back-End Development</p>
             <div className="flex flex-col">
                         <h2 className="text-2xl">Call Us:</h2>
                         <p className="text-gray-400 text-xl">Tel: 8421893853</p>

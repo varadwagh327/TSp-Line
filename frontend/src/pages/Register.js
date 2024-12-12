@@ -26,7 +26,7 @@ const Register = () => {
         try {
           await axios
             .post(
-              "https://tsp-line.onrender.com/api/v1/user/user/register",
+              "http://localhost:4000/api/v1/user/user/register",
               { firstName, lastName, email, phone, password, role: "User" },
               {
                 withCredentials: true,
@@ -114,7 +114,7 @@ const Register = () => {
                                 name="password" 
                                 placeholder="password*" 
                                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="number" 
+                                type="number,text"
                                 value={password}
                                 onChange={(e)=> setPassword(e.target.value)}
                             />

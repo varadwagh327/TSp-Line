@@ -16,6 +16,8 @@ import Register from './pages/Register.js';
 import ServicesAll from './pages/ServicesAll.js';
 import ProductsAll from './pages/ProductsAll.js';
 import AboutAll from "./pages/AboutAll.js"
+import Messages from './components/Massage.js';
+import MassageLogin from "./components/MassageLogin.js"
 
 import ScrollToTop from './components/ScrollToTop.js';
 import { Context } from './index.js';
@@ -44,7 +46,7 @@ useEffect(() => {
   const fetchUser = async () => {
     try {
       const response = await axios.get(
-        "https://tsp-line.onrender.com/api/v1/user/user/me",
+        "http://localhost:4000/api/v1/user/user/me",
         {
           withCredentials: true,
         }
@@ -70,7 +72,9 @@ useEffect(() => {
             <Route path="/register" element={<Register />} /> 
             <Route path="/servicesAll" element={ isAuthenticated ? <ServicesAll /> : <Navigate to="/register" />} /> 
             <Route path="/productsAll" element={ isAuthenticated ? <ProductsAll /> : <Navigate to="/register" />} /> 
+            <Route path="/messages" element={ isAuthenticated ? <Messages/> : <Navigate to="/massageLogin" />} /> 
             <Route path="/aboutAll" element={<AboutAll />} />
+            <Route path="/massageLogin" element={<MassageLogin/>}/>
           </Routes>
         </ScrollToTop>
       </Router>

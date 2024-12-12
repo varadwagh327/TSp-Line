@@ -20,7 +20,7 @@ export const userRegister = catchAsyncErrors(async (req, res, next) => {
     password,
     role,
   });
-  generateToken(user, "User registered!", 200, res);
+  generateToken(user, "registered successfully!", 200, res);
 });
 
 export const login = catchAsyncErrors(async(req, res, next) => {
@@ -42,7 +42,7 @@ export const login = catchAsyncErrors(async(req, res, next) => {
     if(role !== user.role) {
         return next(new ErrorHandler("User With This Role Not Found!", 400));
     }
-    generateToken(user, "User logged in successfully!", 200, res);
+    generateToken(user, "logged in successfully!", 200, res);
 });
 
 export const getUserDetails = catchAsyncErrors(async (req, res, next) => {
@@ -53,7 +53,7 @@ export const getUserDetails = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
+export const logoutUser = catchAsyncErrors(async (req, res, next) => {
   res
       .status(200)
       .cookie("userToken", "", {
@@ -62,6 +62,20 @@ export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
       })
       .json({
           success: true,
-          message: "User logged out successfully!",
+          message: "logged out successfully!",
+      });
+});
+
+
+export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
+  res
+      .status(200)
+      .cookie("adminToken", "", {
+          httpOnly: true,
+          expires: new Date(Date.now()),
+      })
+      .json({
+          success: true,
+          message: "Admin logged out successfully!",
       });
 });
